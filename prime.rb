@@ -1,6 +1,6 @@
 require 'prime'
 def prime?(numbers)
-  prime.each(105557)
+  prime.each(105557) do |prime|
 end
 end
 
