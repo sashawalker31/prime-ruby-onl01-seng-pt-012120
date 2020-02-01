@@ -1,9 +1,7 @@
 def prime?(numbers)
   (2..n-1).none? {|divisor| n % divisor == 0}
 end
-  puts 5.prime?
-  puts 11.prime?
-  puts 105557.prime?
+  puts Prime.first(105557)
 end
 
 
